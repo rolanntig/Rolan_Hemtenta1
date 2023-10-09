@@ -9,6 +9,8 @@ form_btn.addEventListener("click", (event) => {
     console.log(todoList);
     event.preventDefault();
     todos();
+    form_input.value = "";
+
     });
 
 
